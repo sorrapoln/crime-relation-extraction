@@ -1,2 +1,2 @@
 # crime-relation-extraction
- Relation extraction task (NLP) containing crime data
+ Crime Relation Extraction task
