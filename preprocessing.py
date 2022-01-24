@@ -56,7 +56,7 @@ def add_no_relation(df):
 
 def read_ann_file(filename): #filename e.g. 01_nut.a/xxaa.ann
 
-    PATH = 'data/csd_rel_data_annotated/'
+    PATH = 'data/rel_data_annotated/'
 
     document = read_raw_text(PATH + filename[:-4] + '.txt')
     df = pd.read_csv(PATH + filename, sep='^([^\s]*)\s', engine='python', header=None).drop(0, axis=1)
